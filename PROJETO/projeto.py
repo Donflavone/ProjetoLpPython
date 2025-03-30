@@ -4,7 +4,7 @@ senha = input("Digite uma senha para o celular: ")
 # Tentativas de acesso
 tentativas = 3
 
-while tentativas > 0:
+for _ in range(tentativas):
     senha_inserida = input("Digite a senha para acessar o celular: ")
     
     if senha_inserida == senha:
